@@ -1,3 +1,3 @@
-#!/bin/bash
-
-python baseline.py --model='baseline'
+python train.py \
+--model='npmi' \
+--view='include'
